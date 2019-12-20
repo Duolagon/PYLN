@@ -1,0 +1,3 @@
+fltnum = input('input a float number')
+fltnum = fltnum[::-1]
+print(float(fltnum))

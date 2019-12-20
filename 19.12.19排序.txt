@@ -1,0 +1,14 @@
+#由小到大输出三个数
+a = input("输入第一个数：")
+b = input("输入第二个数：")
+c = input("输入第三个数：")
+ans1 = a
+ans2 = b
+ans3 = c
+a = min(ans1,ans2,ans3)
+c = max(ans1,ans2,ans3)
+for i in [ans1,ans2,ans3]:
+    if i != a:
+        if i != c:
+            b = i
+            print(a,b,c)
